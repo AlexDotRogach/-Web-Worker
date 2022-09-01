@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+  </head>
+  <body>
+    <div class="text__wrapper">
+      <textarea id="text" spellcheck="false"></textarea>
+      <button class="count">count</button>
+    </div>
+    <div class="counter__wrapper">
+      <div class="counter">counter:</div>
+      <div class="result">0</div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+
+  <style>
+    .text__wrapper {
+      width: 250px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .count {
+      cursor: pointer;
+      align-self: center;
+      border: 0;
+      border-radius: 10px;
+      outline: none;
+      padding: 10px;
+      color: white;
+      background-color: burlywood;
+    }
+
+    .counter__wrapper {
+      width: 250px;
+      display: flex;
+      margin-top: 5px;
+      margin-left: 8px;
+    }
+
+    .result {
+      margin-left: 5px;
+    }
+  </style>
+</html>
